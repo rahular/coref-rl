@@ -1,0 +1,9 @@
+tensorflow-gpu==1.13.1
+tensorflow-hub
+h5py
+nltk
+pyhocon
+scipy
+sklearn
+keras
+tqdm
