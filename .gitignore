@@ -1,5 +1,4 @@
 # Project specific files
-**/wiki
 data/
 **/*.ckpt
 **/._*.xlsx
