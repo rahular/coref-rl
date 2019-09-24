@@ -1,8 +1,10 @@
 ## Rewarding Coreference Resolvers for Being Consistent with World Knowledge
 
-For convinience, create a symlink: `cd e2e-coref && ln -s ../wiki ./wiki`
+To appear in EMNLP 2019.
 
 ### Datasets
+
+For convinience, create a symlink: `cd e2e-coref && ln -s ../wiki ./wiki`
 
 For pre-training the coreference resolution system, OntoNotes 5.0 is required. [[Download](https://catalog.ldc.upenn.edu/LDC2013T19)] [[Create splits](https://github.com/rahular/coref-rl/blob/master/e2e-coref/setup_training.sh)]
 
@@ -12,6 +14,8 @@ Data for training the reward models and fine-tuning the coreference resolver (pl
 - 12M triples for RE-KG [[Train](https://drive.google.com/open?id=1fyIAecXKhfo6yy5LylJw4I7OLrRuA9-f)] [[Dev](https://drive.google.com/open?id=16fHcg3wYJqENRQ0o8WZV8ZC4luGnMuIH)]
 - 60k triples for RE-Joint [[Train](https://drive.google.com/open?id=1UKLKJN_6WuTBqMTOG5VQIOe0Ef5EGQpF)] [[Dev](https://drive.google.com/open?id=1QRQQcxNOLAGYdVbbWptdjFzM9uWWmwuj)]
 - 10k wikipedia summaries for fine-tuning [[Download](https://drive.google.com/open?id=1twtOxrCGRUnEHzk8VD8obeZS7N3Ms8mK)]
+
+*Note*: If you want to make these files from scratch, follow the instructions in the `triples` folder.
 
 ### Pre-trained models
 
@@ -42,3 +46,15 @@ Unzip `Coref-Distill` into `e2e-coref/logs` folder and run `GPU=x python evaluat
 ### Misc
 - `wiki/reward/combine_models.py` can be used to distill the various reward models
 - `e2e-coref/save_weights.py` can be used to save the weights of the fine-tuned coreference models so that they can be combined by setting the `distill` flag in the configuration file
+
+### Citation
+```
+@misc{aralikatte2019rewarding,
+    title={Rewarding Coreference Resolvers for Being Consistent with World Knowledge},
+    author={Rahul Aralikatte and Heather Lent and Ana Valeria Gonzalez and Daniel Hershcovich and Chen Qiu and Anders Sandholm and Michael Ringaard and Anders Søgaard},
+    year={2019},
+    eprint={1909.02392},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
