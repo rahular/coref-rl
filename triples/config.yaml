@@ -1,0 +1,6 @@
+all:
+  path_to_data: ../data/
+  sling_path: /usr/lib/python2.7/site-packages/sling-pkg/
+  n_articles: 50000
+  
+
