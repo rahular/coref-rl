@@ -49,12 +49,24 @@ Unzip `Coref-Distill` into `e2e-coref/logs` folder and run `GPU=x python evaluat
 
 ### Citation
 ```
-@misc{aralikatte2019rewarding,
-    title={Rewarding Coreference Resolvers for Being Consistent with World Knowledge},
-    author={Rahul Aralikatte and Heather Lent and Ana Valeria Gonzalez and Daniel Hershcovich and Chen Qiu and Anders Sandholm and Michael Ringaard and Anders Søgaard},
-    year={2019},
-    eprint={1909.02392},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@article{DBLP:journals/corr/abs-1909-02392,
+  author    = {Rahul Aralikatte and
+               Heather Lent and
+               Ana Valeria Gonz{\'{a}}lez{-}Gardu{\~{n}}o and
+               Daniel Hershcovich and
+               Chen Qiu and
+               Anders Sandholm and
+               Michael Ringaard and
+               Anders S{\o}gaard},
+  title     = {Rewarding Coreference Resolvers for Being Consistent with World Knowledge},
+  journal   = {CoRR},
+  volume    = {abs/1909.02392},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1909.02392},
+  archivePrefix = {arXiv},
+  eprint    = {1909.02392},
+  timestamp = {Mon, 16 Sep 2019 17:27:14 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1909-02392},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
