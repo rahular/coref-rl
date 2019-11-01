@@ -11,8 +11,8 @@ For pre-training the coreference resolution system, OntoNotes 5.0 is required. [
 Data for training the reward models and fine-tuning the coreference resolver (place in `<PROJECT_HOME>/data`):
 
 - 2M triples for RE-Text [[Train](https://drive.google.com/open?id=1OkmeevtBBke2iNCBEwtbY52LhAb5eY3S)] [[Dev](https://drive.google.com/open?id=17-0fyHHiwiVE8m_4Rrqhbig7Vj8IEuxh)]
-- 12M triples for RE-KG [[Train](https://drive.google.com/open?id=1fyIAecXKhfo6yy5LylJw4I7OLrRuA9-f)] [[Dev](https://drive.google.com/open?id=16fHcg3wYJqENRQ0o8WZV8ZC4luGnMuIH)]
-- 60k triples for RE-Joint [[Train](https://drive.google.com/open?id=1UKLKJN_6WuTBqMTOG5VQIOe0Ef5EGQpF)] [[Dev](https://drive.google.com/open?id=1QRQQcxNOLAGYdVbbWptdjFzM9uWWmwuj)]
+- 12M triples for RE-KG [[Train](https://drive.google.com/open?id=1fyIAecXKhfo6yy5LylJw4I7OLrRuA9-f)] [[Dev](https://drive.google.com/open?id=17-0fyHHiwiVE8m_4Rrqhbig7Vj8IEuxh)]
+- 60k triples for RE-Joint [[Train](https://drive.google.com/open?id=1UKLKJN_6WuTBqMTOG5VQIOe0Ef5EGQpF)] [[Dev](https://drive.google.com/open?id=17-0fyHHiwiVE8m_4Rrqhbig7Vj8IEuxh)]
 - 10k wikipedia summaries for fine-tuning [[Download](https://drive.google.com/open?id=1twtOxrCGRUnEHzk8VD8obeZS7N3Ms8mK)]
 
 *Note*: If you want to make these files from scratch, follow the instructions in the `triples` folder.
