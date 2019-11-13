@@ -50,24 +50,23 @@ Unzip `Coref-Distill` into `e2e-coref/logs` folder and run `GPU=x python evaluat
 
 ### Citation
 ```
-@article{DBLP:journals/corr/abs-1909-02392,
-  author    = {Rahul Aralikatte and
-               Heather Lent and
-               Ana Valeria Gonz{\'{a}}lez{-}Gardu{\~{n}}o and
-               Daniel Hershcovich and
-               Chen Qiu and
-               Anders Sandholm and
-               Michael Ringaard and
-               Anders S{\o}gaard},
-  title     = {Rewarding Coreference Resolvers for Being Consistent with World Knowledge},
-  journal   = {CoRR},
-  volume    = {abs/1909.02392},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1909.02392},
-  archivePrefix = {arXiv},
-  eprint    = {1909.02392},
-  timestamp = {Mon, 16 Sep 2019 17:27:14 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1909-02392},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{aralikatte-etal-2019-rewarding,
+    title = "Rewarding Coreference Resolvers for Being Consistent with World Knowledge",
+    author = "Aralikatte, Rahul  and
+      Lent, Heather  and
+      Gonzalez, Ana Valeria  and
+      Herschcovich, Daniel  and
+      Qiu, Chen  and
+      Sandholm, Anders  and
+      Ringaard, Michael  and
+      S{\o}gaard, Anders",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D19-1118",
+    doi = "10.18653/v1/D19-1118",
+    pages = "1229--1235"
 }
 ```
