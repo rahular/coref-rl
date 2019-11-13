@@ -1,6 +1,6 @@
 ## Rewarding Coreference Resolvers for Being Consistent with World Knowledge
 
-To appear in EMNLP 2019.
+In proceedings of EMNLP 2019.
 
 ### Datasets
 
