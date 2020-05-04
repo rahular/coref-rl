@@ -62,7 +62,7 @@ def get_embedding(fp, n):
 
 
 if __name__ == '__main__':
-	embeddings_path = '../data/wikidata_embeddings_tranlation_v1.tsv'
+	embeddings_path = '../data/wikidata_embeddings_translation_v1.tsv'
 	pointers_path = '../data/wikidata_qcodes_pointers_v1.json'
 
 	tokens = make_pointers(embeddings_path)
