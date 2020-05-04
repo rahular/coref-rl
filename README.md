@@ -30,7 +30,7 @@ Unzip `Coref-Distill` into `e2e-coref/logs` folder and run `GPU=x python evaluat
 ### Training
 
 #### Reward models
-- Download pytorch big-graph embeddings (~40G, place in `<PROJECT_HOME>/embeddings`) [[Download](https://dl.fbaipublicfiles.com/torchbiggraph/wikidata_translation_v1_vectors.npy.gz)]
+- Download pytorch big-graph embeddings (~40G, place in `<PROJECT_HOME>/embeddings`) [[Download](https://dl.fbaipublicfiles.com/torchbiggraph/wikidata_translation_v1.tsv.gz)]
 - Run `wiki/embs.py` to create an index of the embeddings (you need to do this only once)
 - Run reward module training with `cd wiki/reward && python train.py <dataset-name>`
 
